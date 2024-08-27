@@ -1,0 +1,12 @@
+{
+  "name": "counter-do",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev index.ts",
+    "deploy": "wrangler deploy --minify index.ts"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240821.1",
+    "wrangler": "^3.72.1"
+  }
+}
